@@ -5,7 +5,7 @@ import time
 from docxtpl import DocxTemplate
 
 doc = DocxTemplate("my_word_template.docx")
-context = { 'company_name' : "World Company" }
+context = { 'name' : "Doctor Manhattan",'title' : "manufactured god",'company_name' : "Veidt Industries" }
 doc.render(context)
 doc.save("generated_doc.docx")
 
