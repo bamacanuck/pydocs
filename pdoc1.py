@@ -1,6 +1,6 @@
 # pip install docxtpl
 
-# import time
+import time
 
 from docxtpl import DocxTemplate
 
